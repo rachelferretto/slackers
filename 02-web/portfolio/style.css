@@ -1,0 +1,59 @@
+
+
+h1 {
+  text-align: center;
+}
+
+.dolor {
+  color: red;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+}
+
+nav a {
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav a:first-child {
+  border-right: 1px solid black;
+}
+
+header {
+  border-top: 5px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+}
+
+main {
+  overflow: auto;
+  border: 1px solid green;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  /* clear: both; */
+  border: 1px solid red;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  border-left: 1px solid black;
+  padding: 0 10px;
+}
+
+li:first-child {
+  border-left: none;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
