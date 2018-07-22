@@ -21,3 +21,9 @@ CREATE TABLE comments (
 
 insert into comments (content, dish_id) values
 ('yum', 2);
+
+CREATE TABLE users (
+  id SERIAL4 PRIMARY KEY,
+  email VARCHAR(300),
+  password_digest VARCHAR(400)
+);
